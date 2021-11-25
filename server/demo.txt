@@ -1,0 +1,14 @@
+Có 3 thành phần chúng ta sẽ quan tâm ở đây
+Đầu tiên là file protocol buffer
+Trong file protocol buffer, chúng ta sẽ khai báo 3 thành phần chính
+Thành phần đầu tiên là các dịch vụ mà ta sẽ cung cấp
+Thành phần thứ hai là trong dịch vụ sẽ có dữ liệu đầu vào và dữ liệu đầu ra
+Thành phần cuối cùng là cách vận hành của dữ liệu đầu vào và dữ liệu đầu ra 
+Nếu ta khai báo stream cho dữ liệu đầu vào hoặc dữ liệu đầu ra, thì chúng ta sẽ hiểu 
+rằng dữ liệu đó sẽ vận hành theo luồng dữ liệu, ngược là thì nó vận hành theo kiểu đơn dữ liệu
+Sau khi đã khai báo file protocol buffer
+Các file protocol buffer sẽ được biên dịch để tạo ra các file mã nguồn của ngôn ngữ mà chúng ta muốn sử dụng GRPC
+Ở đây chúng ta sẽ tạo ra file mã nguồn của Java và Golang
+
+Mỗi ngôn ngữ sẽ có thư viện giúp 
+Sẽ

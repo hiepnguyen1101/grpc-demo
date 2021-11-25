@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package protovsjson;
+option java_multiple_files = true;
+option java_package = "me.hiepdev.provsjson";
+
+message ContactProtobuf {
+  string phoneNumber = 5;
+  string country = 6;
+}
+
+message UserProtobuf {
+  string first_name = 1;
+  string last_name = 2;
+  string email = 3;
+  repeated ContactProtobuf contact = 4;
+}
